@@ -87,4 +87,3 @@ pip install numpy pandas matplotlib scipy PyEMD statsmodels
 ## 👨‍💻 Author Note
 
 This project pushes beyond textbook theory by using **adaptive decomposition** and real statistical validation instead of symbolic overlays. Harmonics failed. EMD succeeded.
-
