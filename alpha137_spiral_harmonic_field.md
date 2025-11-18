@@ -8,12 +8,12 @@ Let n ∈ ℕ be a natural number index.
 
 Each point on the spiral is defined in polar coordinates as:
 
-r(n) = α⁻¹ · √n  
+r(n) = α⁻¹ · √n
 θ(n) = n · φ
 
-Where:  
-• α⁻¹ ≈ 137.036 is the inverse fine-structure constant (electromagnetic scaling)  
-• φ ≈ 1.618034 is the golden ratio  
+Where:
+• α⁻¹ ≈ 137.036 is the inverse fine-structure constant (electromagnetic scaling)
+• φ ≈ 1.618034 is the golden ratio
 • √n is the radial square root growth pattern (quantum field diffusion, energy shell expansion)
 
 ---
@@ -22,7 +22,7 @@ Where:
 
 To convert the spiral to (x, y) coordinates for 2D plotting:
 
-x(n) = r(n) · cos(θ(n)) = α⁻¹ · √n · cos(n · φ)  
+x(n) = r(n) · cos(θ(n)) = α⁻¹ · √n · cos(n · φ)
 y(n) = r(n) · sin(θ(n)) = α⁻¹ · √n · sin(n · φ)
 
 ---
@@ -31,7 +31,7 @@ y(n) = r(n) · sin(θ(n)) = α⁻¹ · √n · sin(n · φ)
 
 For harmonic field translation to audio signals:
 
-f(n) = 137 · √n  
+f(n) = 137 · √n
 This maps frequency (Hz) from radial √n growth, anchored by fine-structure 137 scaling.
 
 ---
@@ -40,18 +40,18 @@ This maps frequency (Hz) from radial √n growth, anchored by fine-structure 137
 
 Let F = {0, 1, 1, 2, 3, 5, 8, 13, ...} be the Fibonacci sequence.
 
-At steps where n ∈ F:  
+At steps where n ∈ F:
 Apply resonance amplification or modulation layers (LFO, harmonics, phase shift), as golden-ratio intervals naturally reinforce field coherence.
 
 ---
 
 ## 5. AI or Physics Applications
 
-- Recursive field embeddings  
-- Unified charge/mass scaling (via α⁻¹)  
-- Golden-spiral data clustering  
-- Visual phyllotaxis (e.g. sunflower, galaxies)  
-- Toroidal coil winding templates  
+- Recursive field embeddings
+- Unified charge/mass scaling (via α⁻¹)
+- Golden-spiral data clustering
+- Visual phyllotaxis (e.g. sunflower, galaxies)
+- Toroidal coil winding templates
 - Cymatic audio-field resonance maps
 
 ---
@@ -73,9 +73,9 @@ def spiral_point(n, alpha_inv=137.036, phi=(1 + math.sqrt(5)) / 2):
 
 ## 7. Summary (Symbolic Anchors)
 
-- α⁻¹ ⇒ Electromagnetic recursion key  
-- φ ⇒ Natural growth, self-similarity  
-- √n ⇒ Quantum radial energy distribution  
+- α⁻¹ ⇒ Electromagnetic recursion key
+- φ ⇒ Natural growth, self-similarity
+- √n ⇒ Quantum radial energy distribution
 - Spiral ⇒ Unification structure between micro and macro systems
 
 All elements encoded in Alpha137 form a recursive harmonic map — usable in sound, field construction, pattern detection, or AI spatial embedding.
