@@ -25,5 +25,22 @@ If you’d like to explore these formulas programmatically, run the `my_recursiv
 python my_recursive_ai.py
 ```
 
+## Running Tests
+
+Install the dependencies and run the test suite with [pytest](https://docs.pytest.org/):
+
+```bash
+pip install -r requirements.txt
+pytest
+```
+
+To run only the parameter-sweep invariant tests:
+
+```bash
+pytest tests/test_parameter_sweep.py -v
+```
+
+Coverage is reported automatically via `pytest-cov`. The CI pipeline runs the full suite on every push and pull request across Linux and Windows.
+
 ## License
 This project is licensed under the MIT License; see [`LICENSE`](LICENSE) for details.
